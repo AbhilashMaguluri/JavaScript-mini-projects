@@ -21,10 +21,10 @@ Enter your date of birth and instantly get your **exact age in years, months, an
 ---
 
 ## ✨ Features  
-- ✅ Clean and easy-to-use interface  
-- ✅ Calculates age in years, months, and days  
-- ✅ Handles invalid inputs gracefully  
-- ✅ Works instantly in the browser  
+- Clean and easy-to-use interface  
+- Calculates age in years, months, and days  
+- Handles invalid inputs gracefully  
+- Works instantly in the browser  
 
 ---
 

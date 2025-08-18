@@ -1,0 +1,45 @@
+* {
+  text-align: center;
+  background-color: aliceblue;
+}
+
+h2 {
+  font-size: 50px;
+  padding: 40px;
+  color: rgb(241, 121, 241);
+}
+
+label {
+  font-size: 25px;
+  padding: 40px;
+}
+
+input[type="date"] {
+  margin: 10px;
+  padding: 8px;
+  font-size: 30px;
+  width: 260px;
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  outline: none;
+  background-color: bisque;
+}
+
+button {
+  font-size: 30px;
+  border-radius: 10px;
+  width: 280px;
+  background-color: bisque;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#result {
+  font-size: 20px;
+  color: blue;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 10px;
+}

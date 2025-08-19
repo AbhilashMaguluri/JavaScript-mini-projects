@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Denomination Calculator</title>
+    <link rel="stylesheet" href="Denominations.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Denomination Calculator</h1>
+      <input type="number" id="amount" placeholder="Enter Amount" />
+      <button onclick="calculateNotes()">Calculate</button>
+      <table>
+        <tr>
+          <th>Notes</th>
+          <th>Count</th>
+        </tr>
+        <tr>
+          <td id="notes"></td>
+          <td id="count"></td>
+        </tr>
+      </table>
+    </div>
+    <script src="Denominations.js"></script>
+  </body>
+</html>

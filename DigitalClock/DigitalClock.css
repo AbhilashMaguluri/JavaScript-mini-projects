@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(45deg, #08001f, #30197d);
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.clock span,
+.date span {
+    font-size: 80px;
+    width: 90px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+
+.clock span::after,
+.date span::after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hrs::after { content: 'Hours'; }
+#min::after { content: 'Minutes'; }
+#sec::after { content: 'Seconds'; }
+#dt::after  { content: 'Date'; }
+#mon::after { content: 'Month'; }
+#year::after { content: 'Year'; }

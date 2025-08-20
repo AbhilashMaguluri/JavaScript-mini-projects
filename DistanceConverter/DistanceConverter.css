@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0ebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.converter-card {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  width: 320px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.converter-card:hover {
+  transform: translateY(-5px);
+}
+
+.converter-card h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #444;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #6a5acd;
+}
+
+button {
+  width: 100%;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #5848c2;
+}
+
+#result {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #222;
+  font-size: 18px;
+}

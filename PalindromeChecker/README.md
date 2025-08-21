@@ -39,10 +39,10 @@ Enter a number in the prompt, and the app will check if it is a **palindrome** o
 ```
 
 PalindromeChecker/
-│── index.html # Main HTML file
-│── style.css # Styling
-│── script.js # Palindrome checking logic
-│── screenshot.png # Demo screenshot (optional)
+│── PalindromeChecker.html # Main HTML file
+│── PalindromeChecker.css # Styling
+│── PalindromeChecker.js # Palindrome checking logic
+│── PalindromeChecker.png # Demo screenshot 
 │── README.md # Project documentation
 
 ```

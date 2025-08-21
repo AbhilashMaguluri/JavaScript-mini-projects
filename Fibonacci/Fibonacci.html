@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fibonacci Series</title>
+  <link rel="stylesheet" href="Fibonacci.css">
+</head>
+<body>
+  <div class="card">
+    <h2>Fibonacci Series Generator</h2>
+
+    <label for="rangeInput">Enter a number:</label>
+    <input type="number" id="rangeInput" placeholder="Enter a number">
+
+    <br><br>
+
+    <label>
+      <input type="radio" name="mode" value="limit" checked> Fibonacci by Limit
+    </label>
+    <br>
+    <label>
+      <input type="radio" name="mode" value="count"> Fibonacci by Count
+    </label>
+
+    <br><br>
+    <button onclick="printSeries()">Generate</button>
+
+    <p id="output"></p>
+  </div>
+
+  <script src="fibonacci.js"></script>
+</body>
+</html>

@@ -52,7 +52,7 @@ Denominations/
 ## 📸 Demo Screenshot  
 Here is a screenshot of the project running in the browser:  
 
-![Demo Screenshot](Denomination.png)  
+![Demo Screenshot](Denominations.png)  
 
 ---
 

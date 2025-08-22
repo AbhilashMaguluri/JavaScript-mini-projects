@@ -93,7 +93,7 @@ cd JavaScript-mini-projects
 ---
 
 ## 📁 Project Structure
-
+```
 JavaScript-mini-projects/
 ├── 📂 AgeCalculator/
 │   ├── AgeCalculator.html
@@ -197,6 +197,8 @@ JavaScript-mini-projects/
 │   ├── VoterEligibilityAge.png
 │   ├── VoterEligibilityName.png
 │   └── README.md
+
+```
 
 ---
 ## 🧪 Testing  
